@@ -5,7 +5,7 @@
 
 The Tool allows easy labelling of images and creates text file compatible with DETECTNET / KITTI data set format.
 
-It offers the most easiest and convinient way of labelling an image.
+It offers the most easiest and convenient way of labelling an image.
 
 It also allows the user to draw rectangles around objects ,name these rectangles; Label.”txt” files are created in the same folder with the corresponding images and contains the labels and their bounding box coordinates. 
 
