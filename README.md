@@ -1,8 +1,7 @@
-# TriassicSolutions
 
-AI ObjectDetection Labelling Tools.
+# AI ObjectDetection Labelling Tools.
 
-DETECTNET-LABELING TOOL
+# DETECTNET-LABELING TOOL
 
 The Tool allows easy labelling of images and creates text file compatible with DETECTNET / KITTI data set format.
 
@@ -14,22 +13,21 @@ The tool also offers the option of categorizing occluded images.
 
 
 
-The label files contain the following information,
+The label files contain the following information,                                                                         
 
-
-#Values    Name      Description
+         Values Name      Description
 ----------------------------------------------------------------------------
-   1    type         Describes the type of object: 'Car', 'Van', 'Truck',
-                     'Pedestrian','DontCare'
+          1    type         Describes the type of object: 'Car', 'Van', 'Truck',
+                            'Pedestrian','DontCare'
                       
-   1    truncated    Float from 0 (non-truncated) to 1 (truncated), where
-                     truncated refers to the object leaving image boundaries
-   1    occluded     Integer (0,1,2,3) indicating occlusion state:
-                     0 = fully visible, 1 = partly occluded
-                     2 = largely occluded, 3 = unknown
+          1    truncated    Float from 0 (non-truncated) to 1 (truncated), where
+                            truncated refers to the object leaving image boundaries
+          1    occluded     Integer (0,1,2,3) indicating occlusion state:
+                            0 = fully visible, 1 = partly occluded
+                            2 = largely occluded, 3 = unknown
      
-   4    bbox         2D bounding box of object in the image (0-based index):
-                     contains left, top, right, bottom pixel coordinates
+          4    bbox         2D bounding box of object in the image (0-based index):
+                            contains left, top, right, bottom pixel coordinates
   
 
 Here, 'DontCare' labels denote regions in which objects have not been labeled,
@@ -44,7 +42,7 @@ Windows 7
 
 The tool can also run using Matlab code.
 
-DETECTNET-ERROR ANALYSIS AUTOMATION
+# DETECTNET-ERROR ANALYSIS AUTOMATION
 
 Why comparing Machine Learning algorithms to human level performance? 
                                    
@@ -62,9 +60,9 @@ Language Used-C#
 Visual Studio 2013
 
 
-TOOLS FOR FASTER RCNN
+# TOOLS FOR FASTER RCNN
 
-DETECTNET PY-FASTER RCNN LABEL CONVERSION TOOL
+# DETECTNET TO PY-FASTER RCNN LABEL CONVERSION TOOL
 
 The caffe py faster RCNN requires that the labels of Pascal VOC2007 format.
 
@@ -82,7 +80,7 @@ Language Used-C#
 .Net Framework
 Visual Studio 2013
 
-DETECTNET-YOLO LABEL CONVERSION TOOL
+# DETECTNET-YOLO LABEL CONVERSION TOOL
 
 YOLO, short for You Only Look Once, is a real-time object recognition algorithm. The YOLO Conversion tool converts the Kitty Data set into yolo format
 
