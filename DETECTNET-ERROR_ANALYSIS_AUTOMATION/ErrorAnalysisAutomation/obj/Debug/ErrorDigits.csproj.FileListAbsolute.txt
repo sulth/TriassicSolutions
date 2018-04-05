@@ -1,9 +1,0 @@
-E:\Test_Works\ErrorDigits\ErrorDigits\bin\Debug\ErrorDigits.exe.config
-E:\Test_Works\ErrorDigits\ErrorDigits\bin\Debug\ErrorDigits.exe
-E:\Test_Works\ErrorDigits\ErrorDigits\bin\Debug\ErrorDigits.pdb
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.csprojResolveAssemblyReference.cache
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.ErrorDigits.resources
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.Properties.Resources.resources
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.csproj.GenerateResource.Cache
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.exe
-E:\Test_Works\ErrorDigits\ErrorDigits\obj\Debug\ErrorDigits.pdb
