@@ -101,6 +101,22 @@ Class Number box2_x1_ratio box2_y1_ratio box2_width_ratio box2_height_ratio
 
 The tool can run using Python code.
 
+# KERAS LABELLING TOOL FOR RESNET-50
+
+Input: Multiframe tiff sequence.
+Output required: An n x n cropped images in Image folder and the corresponding labels of centroid values(x,y) in Label folder.
+
+Procedure:
+
+(1) Open the tiff file and display the initial frame, mark its centroid(x1, y1) manually; 
+(2) Display the second frame and draw an n x n bounding box around the centroid (x1, y1) in the first frame.
+
+(3) Mark centroid(x2, y2) manually inside the the new box; Crop the part of the second frame inside the bounding box and save it as a new image in the training images folder. Save (x2, y2) relative to the bounding box as the target variables (annotations).
+
+(4) Repeat for all frames.
+
+The tool can run using Python code.
+
 
 
 
