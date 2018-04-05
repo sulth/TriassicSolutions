@@ -5,9 +5,9 @@
 
 The Tool allows easy labelling of images and creates text file compatible with DETECTNET / KITTI data set format.
 
-It offers the most easiest and convinent way of labelling an image.
+It offers the most easiest and convinient way of labelling an image.
 
- It aslo allows the user to draw rectangles around objects ,name these rectangles . Label.”txt” files are created in the same folder with the image and contains labels and their bounding box coordinates. 
+It also allows the user to draw rectangles around objects ,name these rectangles; Label.”txt” files are created in the same folder with the corresponding images and contains the labels and their bounding box coordinates. 
 
 The tool also offers the option of categorizing occluded images. 
 
@@ -52,7 +52,7 @@ You can get a single real number evaluation metric of Accuracy from the confusio
 
 The tool is developed to analyze the Model accuracy . The images along with their labels are selected and sent for checking.
       
-The tool offers the advantage over detect net by analyzing multiple images and labels without interruption. The tool was checked  with 20000 images and produced the results within a limited span of time. The Output folder will contain  a spreadsheet of files with error, The response of various classes in .txt in format.
+The tool offers the advantage over detectNet by analyzing multiple images and labels without interruption. The tool was checked  with 20000 images and produced the results within a limited span of time. The Output folder will contain  a spreadsheet of files with error, The response of various classes in .txt in format.
           
 PREREQUISITES
 Language Used-C#
@@ -83,7 +83,6 @@ Visual Studio 2013
 # DETECTNET-YOLO LABEL CONVERSION TOOL
 
 YOLO, short for You Only Look Once, is a real-time object recognition algorithm. The YOLO Conversion tool converts the Kitty Data set into yolo format
-
 
 Before Conversion
 
