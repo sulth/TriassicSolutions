@@ -101,7 +101,7 @@ Class Number box2_x1_ratio box2_y1_ratio box2_width_ratio box2_height_ratio
 
 The tool can run using Python code.
 
-# KERAS LABELLING TOOL FOR RESNET-50
+# KERAS LABELING TOOL FOR RESNET-50
 
 Input: Multiframe tiff sequence.
 Output required: An n x n cropped images in Image folder and the corresponding labels of centroid values(x,y) in Label folder.
