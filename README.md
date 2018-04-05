@@ -54,7 +54,8 @@ The tool is developed to analyze the Model accuracy . The images along with thei
       
 The tool offers the advantage over detectNet by analyzing multiple images and labels without interruption. The tool was checked  with 20000 images and produced the results within a limited span of time. The Output folder will contain  a spreadsheet of files with error, The response of various classes in .txt in format.
           
-PREREQUISITES
+PREREQUISITES:
+
 Language Used-C#
 .Net Framework
 Visual Studio 2013
@@ -75,7 +76,8 @@ The output folder will be named VOC2007 having the following folders
 -JPEG Images
 -ImageSets
 
-PREREQUISITES
+PREREQUISITES:
+
 Language Used-C#
 .Net Framework
 Visual Studio 2013
